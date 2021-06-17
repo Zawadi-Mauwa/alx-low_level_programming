@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*This is a C Program that prints a string, it retuens an integer value of 0, it doesn't use the printf function but instared it uses the puts function*/
+/*This is a C Program that prints a string
+ *It's a main function - which is entry point or point of exercution 
+ *It retuens an integer value of 0*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
