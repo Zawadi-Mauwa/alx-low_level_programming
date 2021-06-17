@@ -3,7 +3,7 @@
 /**
  *main function - which is entry point or point of exercution
  *
- *It retuens an integer value of 0
+ *return - an integer value of 0
  */
 int main(void)
 {
