@@ -1,0 +1,1 @@
+This project is centered more around Variables, if, else, and while.
