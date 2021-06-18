@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/** 
+/**
  *main - entry point
  *
  *Return: must return 0 it succsessful
