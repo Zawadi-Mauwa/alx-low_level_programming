@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main function - which is entry point or point of exercution
+ *main - which is entry point or point of exercution
  *
- *return - an integer value of 0
+ *Return: an integer value of 0
  */
 int main(void)
 {
