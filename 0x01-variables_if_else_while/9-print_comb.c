@@ -7,17 +7,17 @@
  *
  * Return: Always return 0 in the case of success
  */
-int main(void)
-{
-char character;
 
-for (character = '0' ; character <= '9' ; character++)
+int integer;
+
+for (integer = 0 ; integer <= 9 ; integer++)
 {
-putchar(character);
+putchar(integer + '0');
+if (integer != 9)
+{
+putchar(',');
+putchar(' ');
 }
-for (character = 'a' ; character <= 'f' ; character++)
-{
-putchar(character);
 }
 putchar('\n');
 return (0);
