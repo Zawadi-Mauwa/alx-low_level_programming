@@ -2,19 +2,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point for writing entire lowercase alphabet except q and e
+ * main - Entry point or point of exercution
  *
- * Return: Always 0 (Success)
+ * Return: Always returns 0 in the case of success
  */
 int main(void)
 {
-int character;
+int num;
  
-for (character = 'a' ; character <= 'z' ; character++)
+for (num = 'a' ; num <= 'z' ; num++)
 {
-if (character != 'q' && character != 'e')
+if (num != 'q' && num != 'e')
 {
-putchar(character);
+putchar(num);
 }
 }
 putchar('\n');
