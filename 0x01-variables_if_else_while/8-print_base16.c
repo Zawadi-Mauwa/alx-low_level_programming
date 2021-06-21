@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point for writing entire base16 numeric set
+ * main - Entry point or point of exercution
  *
- * Return: Always 0 (Success)
+ * Return: Always return 0 in case of success
  */
 int main(void)
 {

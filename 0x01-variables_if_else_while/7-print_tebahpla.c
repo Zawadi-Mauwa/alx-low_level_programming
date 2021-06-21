@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point for writing entire lowercase alphabet in reverse
+ * main - Entry point or point of exercution
  *
- * Return: Always 0 (Success)
+ * Return: Always returns 0 in the case of success
  */
 int main(void)
 {
