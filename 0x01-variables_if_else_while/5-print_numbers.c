@@ -8,14 +8,10 @@
  */
 int main(void)
 {
-int num;
- 
-for (num = 'a' ; num <= 'z' ; num++)
+int integer;
+for (integer = 0 ; integer < 10 ; integer++)
 {
-if (num != 'q' && num != 'e')
-{
-putchar(num);
-}
+printf("%d", integer);
 }
 putchar('\n');
 return (0);
