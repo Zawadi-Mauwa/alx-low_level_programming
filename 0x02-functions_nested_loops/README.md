@@ -1,0 +1,1 @@
+This project is to focused more on prototypes, if, else and while statements and header inclusion

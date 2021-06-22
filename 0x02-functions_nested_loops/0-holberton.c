@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "holberton.h"
 
 /**
  *main - point of entry or point of exercution.
@@ -11,6 +9,14 @@
 
 int main(void)
 {
-printf("%s", "Holberton\n")
+char school[] ="Holberton";
+int i;
+
+for (i = 0; i < 9; i++)
+{
+_putchar(school[i]);
+}
+_putchar('\n');
+
 return (0);
 }
