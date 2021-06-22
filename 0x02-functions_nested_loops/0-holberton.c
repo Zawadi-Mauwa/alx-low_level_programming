@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char school[] ="Holberton";
+char school[] = "Holberton";
 int i;
 
 for (i = 0; i < 9; i++)
