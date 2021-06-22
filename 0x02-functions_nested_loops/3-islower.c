@@ -2,7 +2,7 @@
 /**
  * _islower - Will check if a letter is lowercase or not
  *
- * @i: is an integer parameter from which will be checked whether references are lowercase letter or not
+ * @i: integer parameter which will be checked if references are lowercase letter or not
  *
  * Return: It should return void.
  */
