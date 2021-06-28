@@ -3,11 +3,11 @@
 /**
  *reset_to_98 - updates the value thats is pointed to 98
  *
- *@i: It's the value to address i
+ *@n: It's the value to address n
  *
  *Return: void
  */
-void reset_to_98(int *i)
+void reset_to_98(int *n)
 {
-*i = 98;
+*n = 98;
 }  
