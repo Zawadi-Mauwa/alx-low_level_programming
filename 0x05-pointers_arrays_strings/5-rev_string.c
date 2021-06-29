@@ -23,6 +23,6 @@ while (i > j)
 {
 temp = s[i];
 s[i--] = s[j];
-s[a++] = temp;
+s[j++] = temp;
 }
 }
