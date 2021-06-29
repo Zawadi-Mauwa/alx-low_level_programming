@@ -3,7 +3,7 @@
 /**
  *_strlen - will return the lenth of a sring
  *
- *@s - It's the only parameter to be passed in this function (string)
+ *@s: It's the only parameter to be passed in this function (string)
  *
  *Return: It should retun the lenth of a string
  */
