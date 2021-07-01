@@ -1,4 +1,5 @@
-
+#include "holberton.h" 
+#include <stdio.h>
 /** 
 * _strcat - appends string 2 to string 1
 *
