@@ -1,5 +1,5 @@
 #include "holberton.h"
-/** 
+/**
 * _strncat - appends string 2 to string 1 
 *
 * @dest: Char pointer to destination string 

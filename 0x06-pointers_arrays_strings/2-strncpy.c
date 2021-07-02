@@ -1,5 +1,5 @@
 #include "holberton.h"
- /** 
+/**
 * _strncpy - Copy str to dest 
 *
 * @n: Number of bytes to use max 
