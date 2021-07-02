@@ -1,14 +1,14 @@
 #include "holberton.h"
 /**
-* _strncat - appends string 2 to string 1 
+* _strncat - appends string 2 to string 1
 *
-* @dest: Char pointer to destination string 
+* @dest: Char pointer to destination string
 *
-* @src: Char pointer to source string 
+* @src: Char pointer to source string
 *
-* @n: Is the number of bytes to be printed 
+* @n: Is the number of bytes to be printed
 *
-* Return: Returns the pointer to resulting string dest 
+* Return: Returns the pointer to resulting string dest
 */
 
 char *_strncat(char *dest, char *src, int n)
