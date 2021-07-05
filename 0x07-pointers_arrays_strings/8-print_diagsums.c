@@ -7,6 +7,8 @@
  * @a: 2nd parameter, the square matrix that prints the sum of diagonals
  *
  * @size: 2nd parameter, the size of the matrix
+ *
+ * Return: Should return void
  */
 
 void print_diagsums(int *a, int size)
