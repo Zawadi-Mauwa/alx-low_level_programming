@@ -2,9 +2,11 @@
 #include "holberton.h"
 
 /**
- * print_diagsums - Will print sum of two diagonals of a square matrix of integers
+ * print_diagsums - Will print sum of two diagonals of 
+ *a square matrix of integers
  *
- * @a: 2nd parameter, the square matrix that prints the sum of diagonals
+ * @a: 2nd parameter, the square matrix that prints 
+ *the sum of diagonals
  *
  * @size: 2nd parameter, the size of the matrix
  *
