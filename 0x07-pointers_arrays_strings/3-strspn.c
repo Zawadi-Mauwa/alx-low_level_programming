@@ -9,22 +9,31 @@
  *
  * Return: Must return count, offset from beginning of s
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int count = 0;
-int len = 0;
-int len2 = 0;
-for (len2 = 0, count = 0; *(accept + len) != '\0'; len++)
+unsigned int count, count1, match = 0;
+
+count = 0;
+while (s[count] != '\0')
 {
-while (*(s + len2) != '\0')
+if (s[count] != 32)
 {
-if (*(accept + len) == *(s + len2))
-return (count + 1);
+count1 = 0;
+while (accept[count1] != '\0')
+{
+if (accept[count1] == s[count])
+{
+match = match + 1;
+}
+count1++;
+
+}
+}
+else
+return (match);
+
 count++;
-len2++;
 }
-}
-if (*(accept + len) != *(s + len))
-return (0);
-return (count);
+return (match);
 }
