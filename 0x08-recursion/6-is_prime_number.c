@@ -1,35 +1,36 @@
 #include "holberton.h"
-
 /**
- * is_prime_number - detects if an input number is a prime number
- * 
- * @n: Only parameter and is an input number
+ * is_prime_number - Will check if n is a prime number
  *
- * Return: Should return an int
+ * @resp: 1st parameter and is an int
+ *
+ * @n: 2nd parameter and is an int
+ *
+ * Return: Should return either 0 or 1
  */
 
+int check_prime(int n, int resp);
 int is_prime_number(int n)
 {
-if (n <= 1)
-return (0);
-return (getNumPrim(n, 2));
+return (check_prime(n, 2));
 }
 
 /**
- * getNumPrim - function that gets if num is 0 or 1
+ * check_prime - Will check all number < n if they can divide it
  *
- * @num:  1st parameter and is an input number
+ * @n: 1st parameter and is an  int
  *
- * @i: 2nd parameter and is a counter variable
+ * @resp: 2nd parameter and is an int
  *
  * Return: Should return an int
  */
 
-int getNumPrim(int num, int i)
+int check_prime(int n, int resp)
 {
-if (num == i)
+if (resp >= n && n > 1)
 return (1);
-if (num % i == 0)
+else if (n % resp == 0 || n <= 1)
 return (0);
-return (getNumPrim(num, i + 1));
+else
+return (check_prime(n, resp + 1));
 }
