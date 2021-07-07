@@ -22,6 +22,7 @@ return (-1);
 
 /**
  * _sqrt_recursion - Will return the natural square root of a number
+ *
  * @n: only parameter and is an integer to find sqrt of
  *
  * Return: return the square root or -1
@@ -29,7 +30,14 @@ return (-1);
 
 int _sqrt_recursion(int n)
 {
-if (n == 0)
-return (0);
-return (sqrt_check(1, n));
+int i = 0;
+
+if (i < 0) 
+return (-1);
+
+else
+{
+return (_evaluate(i, n));
+}
+
 }
