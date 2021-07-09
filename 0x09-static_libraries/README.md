@@ -1,0 +1,1 @@
+In this project we focus on static libraries in c
