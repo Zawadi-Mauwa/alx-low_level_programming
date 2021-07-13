@@ -1,0 +1,1 @@
+In this project we learn about memory allocation also known as malloc.
