@@ -10,27 +10,29 @@
  * @n: 3rd parameter and is number of bytes from s2 to be copied
  *
  * Return: should return concatenated/combined string
- */
+ **/
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-unsigned int i, j, size, len1, len2;
 char *ptr;
+unsigned int len = n, i;
+
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-len1 = _strlen(s1);
-len2 = _strlen(s2);
-if (n > len2)
-n = len2;
-size = len1 + n;
-ptr = malloc(sizeof(char) * size + 1);
-if (!ptr)
+for (i = 0; s1[i]; i++)
+len++;
+
+ptr = malloc(sizeof(char) * (len + 1));
+
+if (ptr == NULL)
 return (NULL);
-for (i = 0; i < len1; i++)
-ptr[i] = s1[i];
-for (j = 0; j < n; j++, i++)
-ptr[i] = s2[j];
-ptr[i] = 0;
+len = 0;
+for (i = 0; s1[i]; i++)
+ptr[len++] = s1[i];
+for (i = 0; s2[i] && i < n; i++)
+ptr[len++] = s2[i];
+ptr[len] = '\0';
 return (ptr);
 }
