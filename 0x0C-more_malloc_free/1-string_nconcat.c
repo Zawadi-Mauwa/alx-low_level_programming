@@ -34,17 +34,3 @@ ptr[i] = s2[j];
 ptr[i] = 0;
 return (ptr);
 }
-/**
- * _strlen - Will return length of a string
- *
- * @s: Only parameter for this function and is string s
- *
- * Return: Should return the length of a string
- */
-int _strlen(char *s)
-{
-char *p = s;
-while (*s)
-s++;
-return (s - p);
-}
