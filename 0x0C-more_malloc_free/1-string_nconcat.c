@@ -10,7 +10,7 @@
  * @n: 3rd parameter and is number of bytes from s2 to be copied
  *
  * Return: should return concatenated/combined string
- **/
+ */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *ptr;
