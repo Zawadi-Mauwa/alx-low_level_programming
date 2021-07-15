@@ -28,10 +28,10 @@ size = len1 + n;
 ptr = malloc(sizeof(char) * size + 1);
 if (!ptr)
 return (NULL);
-for (j = 0; j < n; j++, i++)
-ptr[i] = s2[j];
 for (i = 0; i < len1; i++)
 ptr[i] = s1[i];
+for (j = 0; j < n; j++, i++)
+ptr[i] = s2[j];
 ptr[i] = 0;
 return (ptr);
 }
