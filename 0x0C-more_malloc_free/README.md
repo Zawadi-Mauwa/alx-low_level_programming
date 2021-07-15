@@ -1,0 +1,1 @@
+In this project we continue to focus on memory allocation.
