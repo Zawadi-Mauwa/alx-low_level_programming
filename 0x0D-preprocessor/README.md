@@ -1,0 +1,1 @@
+In this project we learn about the preprocesors (CPP) focus being on macros.
