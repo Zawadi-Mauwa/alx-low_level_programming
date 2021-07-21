@@ -1,0 +1,1 @@
+In this project the focus is on pointers to functions.
