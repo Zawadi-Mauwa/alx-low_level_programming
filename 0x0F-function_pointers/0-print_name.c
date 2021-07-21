@@ -6,7 +6,6 @@
  *
  * @f: 2nd parameter and is a function 
  */
-
 void print_name(char *name, void (*f)(char *))
 {
 if (f != NULL)
